@@ -9,7 +9,7 @@ def remove_common_letters(name1, name2):
             name1 = name1.replace(char, '', 1)
             name2 = name2.replace(char, '', 1)
     return name1, name2
-
+    
 def calculate_flames(count):
     """
     Calculates the FLAMES result based on the count.
